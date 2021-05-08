@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-# Welcome
+# Welcome! My name is Andrey Fedotov
 
 I'm a computer scientist interested in developing software analysis tools,
 programming languages and algorithms, dynamic symbolic execution and fuzzing,
