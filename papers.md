@@ -1,3 +1,9 @@
+---
+title: /papers
+layout: page
+permalink: /papres
+---
+
 # Papers
 
 ## Sydr: Cutting Edge Dynamic Symbolic Execution

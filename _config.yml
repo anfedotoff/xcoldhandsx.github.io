@@ -2,6 +2,7 @@ title: xcoldhandsx.github.io
 header_pages:
       - index.md
       - papers.md
+      - projects.md
       - contact.md
 remote_theme: b2a3e8/jekyll-theme-console
 style: hacker
