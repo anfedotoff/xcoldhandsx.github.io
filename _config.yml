@@ -1,6 +1,7 @@
 title: xcoldhandsx.github.io
 header_pages:
       - index.md
+      - contact.md
 remote_theme: b2a3e8/jekyll-theme-console
 style: hacker
 footer: 'follow me on <a href="https://twitter.com/xfedotoffx">twitter</a>'
