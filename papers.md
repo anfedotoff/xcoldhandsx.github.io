@@ -120,8 +120,8 @@ method capabilities were shown on model examples and real programs.
 \[[paper](https://link.springer.com/content/pdf/10.1134/S0361768815060055.pdf)\]
 
 Padaryan V. A., Kaushan V. V., Fedotov A. N. Automated exploit generation for
-stack buffer overflow vulnerabilities //Programming and Computer Software. –
-2015. – vol. 41. – №. 6. – pp. 373-380. DOI: 10.1134/S0361768815060055
+stack buffer overflow vulnerabilities //Programming and Computer Software.
+2015, vol. 41, No. 6, pp. 373-380. DOI: 10.1134/S0361768815060055
 
 ### Abstract
 
