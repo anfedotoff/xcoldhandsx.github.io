@@ -39,7 +39,7 @@ the problem of undertainting and speeds up SMT solver work for generated
 queries.
 
 
-## [Casr](https://www.ispras.ru/technologies/casr/) core dump analysis and severity reporter tool
+## [Casr](https://www.ispras.ru/en/technologies/casr/) core dump analysis and severity reporter tool
 
 Casr creates automatic reports for fatal errors happened during program testing
 or deployment. The tool works by analyzing Linux coredump files. The resulting
