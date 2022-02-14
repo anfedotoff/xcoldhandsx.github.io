@@ -6,6 +6,58 @@ permalink: /papres
 
 # Papers
 
+## Casr-Cluster: Crash Clustering for Linux Applications
+\[[paper](https://arxiv.org/abs/2112.13719)\] \[[presentation](casr-cluster.pdf)\]
+
+Savidov G., Fedotov A. Casr-Cluster: Crash Clustering for Linux Applications.
+2021 Ivannikov ISPRAS Open Conference (ISPRAS), IEEE, 2021.
+
+Crash report analysis is a necessary step before developers begin fixing errors.
+Fuzzing or hybrid (with dynamic symbolic execution) fuzzing is often used in the
+secure development lifecycle. Modern fuzzers could produce many crashes and
+developers do not have enough time to fix them till release date. There are two
+approaches that could reduce developers' effort on crash analysis: crash
+clustering and crash severity estimation. Crash severity estimation could help
+developers to prioritize crashes and close security issues first. Crash
+clustering puts similar crash reports in one cluster what could speed up the
+analyzing time for all crash reports. In this paper, we focus on crash
+clustering. We propose an approach for clustering and deduplicating of crashes
+that occurred in Linux applications. We implement this approach as a tool that
+could cluster Casr crash reports. We evaluated our tool on a set of crash reports 
+that was collected from fuzzing results.
+
+
+## Symbolic Security Predicates: Hunt Program Weaknesses
+\[[paper](https://arxiv.org/abs/2111.05770)\]
+
+Vishnyakov A., Logunova V., Kobrin E., Kuts D., Parygina D., Fedotov A. Symbolic
+Security Predicates: Hunt Program Weaknesses. 2021 Ivannikov ISPRAS Open
+Conference (ISPRAS), IEEE, 2021.
+
+### Abstract
+Dynamic symbolic execution (DSE) is a powerful method for path exploration
+during hybrid fuzzing and automatic bug detection. We propose security
+predicates to effectively detect undefined behavior and memory access violation
+errors. Initially, we symbolically execute program on paths that don’t trigger
+any errors (hybrid fuzzing may explore these paths). Then we construct a
+symbolic security predicate to verify some error condition. Thus, we may change
+the program data flow to entail null pointer dereference, division by zero,
+out-of-bounds access, or integer overflow weaknesses. Unlike static analysis,
+dynamic symbolic execution does not only report errors but also generates new
+input data to reproduce them. Furthermore, we introduce function semantics
+modeling for common C/C++ standard library functions. We aim to model the
+control flow inside a function with a single symbolic formula. This assists bug
+detection, speeds up path exploration, and overcomes overconstraints in path
+predicate. We implement the proposed techniques in our dynamic symbolic
+execution tool Sydr. Thus, we utilize powerful methods from Sydr such as path
+predicate slicing that eliminates irrelevant constraints.
+
+We present Juliet Dynamic to measure dynamic bug detection tools accuracy. The
+testing system also verifies that generated inputs trigger sanitizers. We
+evaluate Sydr accuracy for 11 CWEs from Juliet test suite. Sydr shows 95.59%
+overall accuracy. We make Sydr evaluation artifacts publicly available to
+facilitate results reproducibility.
+
 ## Sydr: Cutting Edge Dynamic Symbolic Execution
 \[[paper](https://arxiv.org/abs/2011.09269)\]
 
